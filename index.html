@@ -21,14 +21,17 @@
 </head>
 <body>
   <h1>Ember Run — Privacy Policy</h1>
-  <p class="muted">Last updated: May 3, 2026</p>
+  <p class="muted">Last updated: July 21, 2026</p>
 
   <p>Hi! I'm Pritam Maharjan, a solo indie developer based in Berlin, Germany. I built Ember Run as a small arcade passion project. This page explains — in plain English — what data the game touches, who else might see it, and the choices you have. If anything here is unclear, email me at <a href="mailto:emberrun0@gmail.com">emberrun0@gmail.com</a>.</p>
 
   <h2>1. What I Collect</h2>
-  <p><strong>On your device only (localStorage):</strong> high score, sound preference, death/ad counters used to trigger rewinds, and cached ad files (auto-deleted after 30 minutes or when you go back online). I never see this data — it lives on your phone.</p>
+  <p><strong>On your device only (localStorage):</strong> high score, sound preference, death/ad counters used to trigger rewinds, age declaration, and cached ad files (auto-deleted after 30 minutes or when you go back online). I never see this data — it lives on your phone.</p>
   <p><strong>Through Google AdMob (third party):</strong> when ads load, AdMob may process your IP address, advertising ID, device type, OS version, and coarse location for ad delivery and fraud prevention. See <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's ad policy</a>.</p>
-  <p><strong>What I do NOT collect:</strong> no accounts, no email, no name, no analytics SDK, no cloud sync, no contact list, no photos.</p>
+  <p><strong>Through Firebase Analytics (Google):</strong> the app uses Firebase Analytics to understand usage patterns. This may collect device identifiers, app interaction events, and crash data. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
+  <p><strong>Through Firebase Crashlytics (Google):</strong> the app collects crash reports including device state, stack traces, and device info (model, OS version, memory) to diagnose and fix bugs. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy documentation</a>.</p>
+  <p><strong>Through Google Firestore (Google):</strong> if you are signed in, the app may store your user profile (user ID, display name, high score, games played) in a cloud database. This data is encrypted in transit and only accessible by you. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
+  <p><strong>What I do NOT collect:</strong> no email addresses, no contact lists, no photos, no precise location.</p>
 
   <h2>2. Europe (EEA / UK) — GDPR</h2>
   <p>Before any personalized ads load on EEA, UK, or Swiss devices, Ember Run shows Google's IAB-certified Consent Management Platform (CMP) pop-up. You can choose:</p>
@@ -60,12 +63,15 @@
   <h2>5. Third-Party Services</h2>
   <ul>
     <li><strong>Google AdMob</strong> — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</li>
+    <li><strong>Firebase Analytics</strong> — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</li>
+    <li><strong>Firebase Crashlytics</strong> — <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">privacy documentation</a>.</li>
+    <li><strong>Google Firestore</strong> — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</li>
     <li><strong>Discord</strong> (community link) — <a href="https://discord.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</li>
   </ul>
   <p>I don't control how these companies handle your data once you interact with them.</p>
 
   <h2>6. Data Retention &amp; Security</h2>
-  <p>On-device data stays until you clear app storage or uninstall. Cached ad creatives auto-delete after 30 minutes or the moment your device reconnects to the internet.</p>
+  <p>On-device data stays until you clear app storage or uninstall. Cached ad creatives auto-delete after 30 minutes or the moment your device reconnects to the internet. Firebase Crashlytics data is retained for 90 days. Firestore data is retained until you delete your account or request deletion.</p>
 
   <h2>7. Changes</h2>
   <p>If I update this policy I'll bump the "Last updated" date above and, for material changes, show a notice in-game on next launch.</p>
